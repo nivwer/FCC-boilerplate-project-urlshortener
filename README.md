@@ -1,6 +1,6 @@
 # URL Shortener Microservice
 
-API Project for FCC using NodeJS with Express and MongoDB with mongoose.
+API Project for FCC using NodeJS with Express and MongoDB with Mongoose.
 
 View: <a href="https://boilerplate-project-urlshortener.nivwer.repl.co/">https://boilerplate-project-urlshortener.nivwer.repl.co/</a>
 
