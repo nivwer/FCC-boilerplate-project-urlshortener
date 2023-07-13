@@ -1,3 +1,9 @@
 # URL Shortener Microservice
 
-This is the boilerplate code for the URL Shortener Microservice project. Instructions for building your project can be found at https://www.freecodecamp.org/learn/back-end-development-and-apis/back-end-development-and-apis-projects/url-shortener-microservice.
+API Project for FCC using NodeJS with Express and MongoDB with mongoose.
+
+View: <a href="https://boilerplate-project-urlshortener.nivwer.repl.co/">https://boilerplate-project-urlshortener.nivwer.repl.co/</a>
+
+
+<p>Boilerplate by  <a href="https://www.freecodecamp.org/">freeCodeCamp.org</a></p>
+<p>Solution by <a href="https://github.com/nivwer">nivwer</a></p>
