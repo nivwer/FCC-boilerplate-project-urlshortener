@@ -23,8 +23,6 @@ app.get('/', (req, res) => {
 
 // API endpoint
 app.post('/api/shorturl', (req, res) => {
-  console.log(req.body)
-
   dns.lookup(new URL(req.body.url).hostname, (err) => {
     if (err) {
       return res.json({ error: 'invalid url' });
@@ -63,6 +61,11 @@ app.post('/api/shorturl', (req, res) => {
 
   });
 });
+
+app.get('/api/shorturl/:short_url', async (req, res) => {
+  const urlDoc = await Url.findOne({shorturl: req.params.short_url});
+  res.redirect(urlDoc.url)
+})
 
 app.listen(port, () => {
   console.log(`Listening on port ${port}`);
